@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 from calculator_1 import add, sub, mul, div
-def cal():
+if __name__ == '__main__':
     """Prints the result of the addition, substract, multiplication and division between two numbers"""
     a = 10
     b = 5
