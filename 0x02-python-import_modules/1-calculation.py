@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-from calculator_1 import add, sub, mul, div 
+from calculator_1 import add, sub, mul, div
 def cal():
-    """ Prints the result of the addition, substract, multiplication and division between two numbers """ 
-    a = 10 
+    """Prints the result of the addition, substract, multiplication and division between two numbers"""
+    a = 10
     b = 5
-    print(f'{a:d} + {b:d} = {add(a, b):d}') 
-    print(f'{a:d} - {b:d} = {sub(a, b):d}')
-    print(f'{a:d} * {b:d} = {mul(a, b):d}') 
-    print(f'{a:d} / {b:d} = {div(a, b):d}')
+    print('{:d} + {:d} = {:d}'.format(a, b, add(a, b)))
+    print('{:d} - {:d} = {:d}'.format(a, b, sub(a, b)))
+    print('{:d} * {:d} = {:d}'.format(a, b, mul(a, b)))
+    print('{:d} / {:d} = {:d}'.format(a, b, div(a, b)))
 cal()
