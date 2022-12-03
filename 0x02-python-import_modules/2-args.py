@@ -12,6 +12,6 @@ if __name__ == '__main__':
     elif count_av == 1:
         print(count_av, 'argument: ')
         for i in range(1, count_av + 1):
-            print(f'{i:d}: {av[i]}'.format(i, av[i]))
+            print('{:d}: {av[i]}'.format(i, av[i]))
     elif count_av == 0:
         print(count_av, 'arguments.')
