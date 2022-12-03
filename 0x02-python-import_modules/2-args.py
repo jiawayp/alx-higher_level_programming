@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import sys
-"""
-Print the number of and the list of arguements
+"""Print the number of and the list of arguements
 """
 if __name__ == '__main__':
     av = sys.argv
