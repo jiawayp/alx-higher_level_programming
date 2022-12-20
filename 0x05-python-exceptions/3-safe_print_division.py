@@ -4,7 +4,7 @@ def safe_print_division(a, b):
     quotient = 0
 
     try:
-        quotient = int(a / b)
+        quotient = float(a / b)
     except ZeroDivisionError:
         quotient = None
     finally:
