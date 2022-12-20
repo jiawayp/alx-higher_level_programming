@@ -5,7 +5,7 @@ def safe_print_list_integers(my_list=[], x=0):
 
     for i in range(x):
         try:
-            if type(my_list[x]) is int and print_n != x:
+            if type(my_list[i]) is int and print_n != x:
                     print("{:d}".format(my_list[x]), end ='')
                     print_n += 1
         except TypeError:
